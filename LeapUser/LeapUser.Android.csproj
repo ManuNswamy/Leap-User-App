@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
-    <AotAssemblies>false</AotAssemblies>
-    <EnableLLVM>false</EnableLLVM>
-    <BundleAssemblies>false</BundleAssemblies>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
     <EnableProguard>true</EnableProguard>
   </PropertyGroup>
@@ -49,9 +46,6 @@
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
     <PlatformTarget>x86</PlatformTarget>
-    <AotAssemblies>false</AotAssemblies>
-    <EnableLLVM>false</EnableLLVM>
-    <BundleAssemblies>false</BundleAssemblies>
     <EnableProguard>false</EnableProguard>
     <AndroidSupportedAbis>armeabi-v7a</AndroidSupportedAbis>
     <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
@@ -209,7 +203,7 @@
       <Version>1.0.11</Version>
     </XamarinComponentReference>
   </ItemGroup>
-  <Import Project="..\SharedCode\SharedCode.projitems" Label="Shared" />
+  <Import Project="..\SharedCode\SharedCode.projitems" Label="Shared" Condition="Exists('..\SharedCode\SharedCode.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
