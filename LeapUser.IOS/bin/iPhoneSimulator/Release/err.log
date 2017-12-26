@@ -1,0 +1,75 @@
+objc[6237]: Class VCWeakObjectHolder is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x11fb86ca8) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/AVConference.framework/AVConference (0x11fab8cd0). One of the two will be used. Which one is undefined.
+objc[6237]: Class PLBuildVersion is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0x11d8abcc0) and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0x11d6c26f0). One of the two will be used. Which one is undefined.
+2017-12-21 15:26:25.657 LeapUser[6237:177390] manu
+2017-12-21 15:26:25.659 LeapUser[6237:177390] 1231231231
+2017-12-21 15:26:25.729 LeapUser[6237:177390] Table created!
+2017-12-21 15:26:27.231 LeapUser[6237:177390] System.Collections.Generic.List`1[Firebase.Xamarin.Database.FirebaseObject`1[LeapUser.Session]]
+2017-12-21 15:26:27.259 LeapUser[6237:177390] Hello
+2017-12-21 15:26:27.303 LeapUser[6237:177390] 
+Unhandled Exception:
+System.NullReferenceException: Object reference not set to an instance of an object
+  at LeapUser.OTPViewController.ViewDidLoad () [0x000a8] in <243de0ab9417457ea836ed7a44f3372c>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) ObjCRuntime.Messaging:void_objc_msgSendSuper_IntPtr_IntPtr (intptr,intptr,intptr,intptr)
+  at UIKit.UIViewController.PerformSegue (System.String identifier, Foundation.NSObject sender) [0x00080] in <58a9bd8a3cbb4d0092bc0a767ff66c0f>:0 
+  at LeapUser.ViewController+<ViewDidAppear>d__6.MoveNext () [0x001bc] in <243de0ab9417457ea836ed7a44f3372c>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <2f4074c3120b4d80802e10af84b67d41>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+<>c.<ThrowAsync>b__6_0 (System.Object state) [0x00000] in <2f4074c3120b4d80802e10af84b67d41>:0 
+  at UIKit.UIKitSynchronizationContext+<Post>c__AnonStorey0.<>m__0 () [0x00000] in <58a9bd8a3cbb4d0092bc0a767ff66c0f>:0 
+  at Foundation.NSAsyncActionDispatcher.Apply () [0x00000] in <58a9bd8a3cbb4d0092bc0a767ff66c0f>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <58a9bd8a3cbb4d0092bc0a767ff66c0f>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <58a9bd8a3cbb4d0092bc0a767ff66c0f>:0 
+  at LeapUser.Application.Main (System.String[] args) [0x00000] in <243de0ab9417457ea836ed7a44f3372c>:0 
+2017-12-21 15:26:27.305 LeapUser[6237:177390] Unhandled managed exception:
+Object reference not set to an instance of an object (System.NullReferenceException)
+  at LeapUser.OTPViewController.ViewDidLoad () [0x000a8] in <243de0ab9417457ea836ed7a44f3372c>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) ObjCRuntime.Messaging:void_objc_msgSendSuper_IntPtr_IntPtr (intptr,intptr,intptr,intptr)
+  at UIKit.UIViewController.PerformSegue (System.String identifier, Foundation.NSObject sender) [0x00080] in <58a9bd8a3cbb4d0092bc0a767ff66c0f>:0 
+  at LeapUser.ViewController+<ViewDidAppear>d__6.MoveNext () [0x001bc] in <243de0ab9417457ea836ed7a44f3372c>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <2f4074c3120b4d80802e10af84b67d41>:0 
+  at System.Runtime.CompilerServices.AsyncMethodBuilderCore+<>c.<ThrowAsync>b__6_0 (System.Object state) [0x00000] in <2f4074c3120b4d80802e10af84b67d41>:0 
+  at UIKit.UIKitSynchronizationContext+<Post>c__AnonStorey0.<>m__0 () [0x00000] in <58a9bd8a3cbb4d0092bc0a767ff66c0f>:0 
+  at Foundation.NSAsyncActionDispatcher.Apply () [0x00000] in <58a9bd8a3cbb4d0092bc0a767ff66c0f>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <58a9bd8a3cbb4d0092bc0a767ff66c0f>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <58a9bd8a3cbb4d0092bc0a767ff66c0f>:0 
+  at LeapUser.Application.Main (System.String[] args) [0x00000] in <243de0ab9417457ea836ed7a44f3372c>:0 
+2017-12-21 15:26:27.305 LeapUser[6237:177390] critical: Stacktrace:
+
+2017-12-21 15:26:27.306 LeapUser[6237:177390] critical: 
+Native stacktrace:
+
+2017-12-21 15:26:27.308 LeapUser[6237:177390] critical: 	0   LeapUser                            0x00000001068e5c61 mono_handle_native_crash + 257
+2017-12-21 15:26:27.308 LeapUser[6237:177390] critical: 	1   libsystem_platform.dylib            0x00000001136ebbba _sigtramp + 26
+2017-12-21 15:26:27.308 LeapUser[6237:177390] critical: 	2   libsystem_pthread.dylib             0x00000001137092c8 _pthread_keys + 9720
+2017-12-21 15:26:27.308 LeapUser[6237:177390] critical: 	3   libsystem_c.dylib                   0x000000011345a88f abort + 127
+2017-12-21 15:26:27.309 LeapUser[6237:177390] critical: 	4   LeapUser                            0x0000000106a7cb02 xamarin_unhandled_exception_handler + 34
+2017-12-21 15:26:27.309 LeapUser[6237:177390] critical: 	5   LeapUser                            0x0000000106945f44 mono_invoke_unhandled_exception_hook + 148
+2017-12-21 15:26:27.309 LeapUser[6237:177390] critical: 	6   LeapUser                            0x00000001068e59c1 mono_handle_exception_internal + 4913
+2017-12-21 15:26:27.309 LeapUser[6237:177390] critical: 	7   LeapUser                            0x00000001068e4688 mono_handle_exception + 24
+2017-12-21 15:26:27.309 LeapUser[6237:177390] critical: 	8   LeapUser                            0x000000010686858f mono_amd64_throw_exception + 143
+2017-12-21 15:26:27.310 LeapUser[6237:177390] critical: 	9   ???                                 0x00000001254f9ae7 0x0 + 4920941287
+2017-12-21 15:26:27.310 LeapUser[6237:177390] critical: 	10  LeapUser                            0x00000001067c39bc _ZL31native_to_managed_trampoline_10P11objc_objectP13objc_selectorPP11_MonoMethodj + 284
+2017-12-21 15:26:27.310 LeapUser[6237:177390] critical: 	11  LeapUser                            0x00000001067cabf4 -[__MonoMac_NSAsyncActionDispatcher xamarinApplySelector] + 52
+2017-12-21 15:26:27.310 LeapUser[6237:177390] critical: 	12  Foundation                          0x00000001099f8fd1 __NSThreadPerformPerform + 334
+2017-12-21 15:26:27.310 LeapUser[6237:177390] critical: 	13  CoreFoundation                      0x0000000111e8ac01 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+2017-12-21 15:26:27.311 LeapUser[6237:177390] critical: 	14  CoreFoundation                      0x0000000111e700cf __CFRunLoopDoSources0 + 527
+2017-12-21 15:26:27.311 LeapUser[6237:177390] critical: 	15  CoreFoundation                      0x0000000111e6f5ff __CFRunLoopRun + 911
+2017-12-21 15:26:27.311 LeapUser[6237:177390] critical: 	16  CoreFoundation                      0x0000000111e6f016 CFRunLoopRunSpecific + 406
+2017-12-21 15:26:27.311 LeapUser[6237:177390] critical: 	17  GraphicsServices                    0x0000000112c29a24 GSEventRunModal + 62
+2017-12-21 15:26:27.311 LeapUser[6237:177390] critical: 	18  UIKit                               0x0000000107bf0134 UIApplicationMain + 159
+2017-12-21 15:26:27.312 LeapUser[6237:177390] critical: 	19  ???                                 0x00000001278346f5 0x0 + 4957882101
+2017-12-21 15:26:27.312 LeapUser[6237:177390] critical: 	20  ???                                 0x0000000127834560 0x0 + 4957881696
+2017-12-21 15:26:27.312 LeapUser[6237:177390] critical: 
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+

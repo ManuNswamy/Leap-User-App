@@ -1,23 +1,12 @@
 ﻿<Properties StartupConfiguration="{574B1B10-5A2E-49C2-840B-52177DE77AE2}|Default">
   <MonoDevelop.Ide.ItemProperties.LeapUser.Android PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../LeapUser/LeapUser/Info.plist">
-    <Files>
-      <File FileName="SharedCode/FirebaseHelper.cs" Line="10" Column="21" />
-      <File FileName="SharedCode/Session.cs" Line="5" Column="1" />
-      <File FileName="SharedCode/SessionResponse.cs" Line="6" Column="1" />
-      <File FileName="../LeapUser/LeapUser/ViewController.cs" Line="54" Column="13" />
-      <File FileName="../LeapUser/LeapUser/QuestionViewController.cs" Line="243" Column="2" />
-      <File FileName="../LeapUser/LeapUser/SessionCompleteViewController.cs" Line="1" Column="1" />
-      <File FileName="../LeapUser/LeapUser/Main.cs" Line="12" Column="1" />
-      <File FileName="../LeapUser/LeapUser/Info.plist" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.LeapUser.IOs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.ItemProperties.LeapUser.IOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.2e4dec07aff6d6a5aa3a315c4a5e75c4a961d365" />
+  <MonoDevelop.Ide.ItemProperties.LeapUser.IOs PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.7f0310f0a3777526bced4170dc42058ce492178e" />
+  <MonoDevelop.Ide.ItemProperties.LeapUser.IOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
   <MultiItemStartupConfigurations />
 </Properties>
